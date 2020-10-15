@@ -1,0 +1,44 @@
+{
+  "name": "@settlemint/besu-privacy-example",
+  "version": "1.0.0",
+  "description": "Example usage of the Besu privacy features as available on the SettleMint platform",
+  "main": "index.js",
+  "repository": "https://github.com/settlemint/besu-privacy-examples",
+  "author": "SettleMint <hello@settlemint.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "accounts": "npx buidler accounts",
+    "compile": "npx buidler compile",
+    "test": "npx buidler test",
+    "node": "npx buidler node",
+    "typechain": "npx buidler typechain",
+    "example:multinode": "npx buidler run scripts/multinode.ts"
+  },
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.7",
+    "@nomiclabs/buidler-ethers": "^2.0.2",
+    "@nomiclabs/buidler-solhint": "^1.3.3",
+    "@nomiclabs/buidler-waffle": "^2.1.0",
+    "@nomiclabs/buidler-web3": "^1.3.4",
+    "@typechain/web3-v1": "^1.0.0",
+    "@types/chai": "^4.2.13",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.11.8",
+    "buidler-typechain": "^0.2.1",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.1.1",
+    "ethers": "^5.0.17",
+    "ts-generator": "0.0.8",
+    "ts-node": "^9.0.0",
+    "typechain": "^2.0.0",
+    "typescript": "^4.0.3",
+    "web3": "^1.3.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "terminal-link": "^2.1.1",
+    "web3-eea": "^0.10.0"
+  }
+}
