@@ -14,8 +14,7 @@
     },
   },
   "include": [
-    "./scripts",
-    "./test"
+    "./scripts"
   ],
   "files": [
     "./buidler.config.ts",
