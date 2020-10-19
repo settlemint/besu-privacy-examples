@@ -31,3 +31,7 @@ NODE3_ORION_PUBLIC_KEY="<Privacy Public Key NODE 3>"
 ```sh
 yarn example:multinode
 ```
+
+## 3. Expected output
+
+![Output](output.png)

@@ -171,9 +171,6 @@ async function main() {
       valueNode1TxHash,
       node1)
 
-      console.log(valueNode1)
-
-
     logStep(`5. Value from ${y('NODE 1')}: ${web3Node1.utils.toBN(valueNode1!.output!).toString()}`);
 
     logStep(`6. Get value from ${y('NODE 2')}`);
@@ -188,8 +185,6 @@ async function main() {
     const valueNode2 = await web3Node2.priv.getTransactionReceipt(
       valueNode2TxHash,
       node2)
-
-      console.log(valueNode2)
 
     logStep(`7. Value from ${y('NODE 2')}: ${web3Node2.utils.toBN(valueNode2!.output!).toString()}`);
 
