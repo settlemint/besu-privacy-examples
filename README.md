@@ -1,7 +1,7 @@
 # Besu Privacy Example
 This repo explains how you can create private transactions using Besu with Orion in the SettleMint platform.
 
-### 1. Prerequisite
+## 1. Prerequisite
 - Create a besu consortium in SettleMint BpaaS.
 - Create 3 besu deployments in SettleMint BpaaS.
 - The Chain ID and Consortium ID will be available in Consortium detail page.
