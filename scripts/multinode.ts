@@ -2,35 +2,9 @@ import { Web3 } from '@nomiclabs/buidler';
 import EEAClient from 'web3-eea';
 import dotenv from 'dotenv';
 import EventEmitterArtifact from '../artifacts/EventEmitter.json';
-import terminalLink from 'terminal-link';
-import chalk from 'chalk';
+import {logStep,logHeader, y, l} from "./helpers";
 
 dotenv.config();
-
-function logHeader(message: string){
-  console.log(
-    chalk.green.bold(`
-${'#'.repeat(message.length+8)}
-##  ${message}  ##
-${'#'.repeat(message.length+8)}
-
-`)
-  );
-}
-
-function logStep(message?: string){
-  console.log(
-    `  ${message}`
-  );
-}
-
-function y(message?: string){
-  return chalk.yellowBright(message)
-}
-
-function l(message: string, link: string){
-  return terminalLink(message,link)
-}
 
 async function main() {
   const web3Node1 = new EEAClient(

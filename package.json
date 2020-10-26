@@ -13,7 +13,8 @@
     "test": "npx buidler test",
     "node": "npx buidler node",
     "typechain": "npx buidler typechain",
-    "example:multinode": "npx buidler run scripts/multinode.ts"
+    "example:multinode": "npx buidler run scripts/multinode.ts",
+    "example:multinodePrivacyGroup": "npx buidler run scripts/multinodePrivacyGroup.ts"
   },
   "devDependencies": {
     "@nomiclabs/buidler": "^1.4.8",
@@ -39,7 +40,6 @@
     "@typechain/ethers-v5": "^2.0.0",
     "chalk": "^4.1.0",
     "dotenv": "^8.2.0",
-    "hyperledger-besu-ethers": "PegaSysEng/hyperledger-besu-ethers",
     "terminal-link": "^2.1.1",
     "web3-eea": "^0.10.0"
   }
