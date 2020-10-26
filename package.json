@@ -13,7 +13,8 @@
     "test": "npx buidler test",
     "node": "npx buidler node",
     "typechain": "npx buidler typechain",
-    "example:multinode": "npx buidler run scripts/multinode.ts"
+    "example:multinode": "npx buidler run scripts/multinode.ts",
+    "example:multinodePrivacyGroup": "npx buidler run scripts/multinodePrivacyGroup.ts"
   },
   "devDependencies": {
     "@nomiclabs/buidler": "^1.4.8",
